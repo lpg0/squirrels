@@ -222,6 +222,65 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+/* Buttons type 2 for secondar pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button2,
+button2,
+input[type="submit"],
+input[type="reset"],
+input[type="button2"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button2:hover,
+button2:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button2"]:hover,
+.button2:focus,
+button2:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button2"]:focus {
+  color: #333;
+  border-color: #fff;
+  outline: 0; }
+.button2.button-primary,
+button2.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button2"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button2.button-primary:hover,
+button2.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button2"].button-primary:hover,
+.button2.button-primary:focus,
+button2.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button2"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

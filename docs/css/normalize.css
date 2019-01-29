@@ -21,7 +21,7 @@ body {
   margin: 0;
   opacity: 1;
   transition: 1s opacity;
-  background: url('../images/Bookcase2.jpg') no-repeat center center fixed; 
+  background: url('../images/BookcaseThin.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

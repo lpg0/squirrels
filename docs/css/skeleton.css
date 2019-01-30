@@ -232,7 +232,7 @@ input[type="button2"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #fff;
+  color: #000;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -243,7 +243,7 @@ input[type="button2"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #647000;
   cursor: pointer;
   box-sizing: border-box; }
 .button2:hover,
@@ -257,7 +257,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button2"]:focus {
   color: #333;
-  border-color: #fff;
+  border-color: #647000;
   outline: 0; }
 .button2.button-primary,
 button2.button-primary,

@@ -25,6 +25,10 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/Logo2.JPG">
+  
+  <!-- Google Feed API
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 
 </head>
 <body>
@@ -55,9 +59,31 @@
       <div class="twelve columns" style="margin-top: 3%" align = left>
         <h3>Home</h3>
         <div class="iframe-container">
-          <a href="newsfeed.xl">
-            <img src="https://www.w3schools.com/xml/pic_rss.gif" width="36" height="14">
-          </a>
+          <!-- Google Feed API
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+          <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+    google.load("feeds", "1");
+
+    function initialize() {
+      var feed = new google.feeds.Feed("https://www.usnews.com/rss/education");
+      feed.load(function(result) {
+        if (!result.error) {
+          var container = document.getElementById("feed");
+          for (var i = 0; i < result.feed.entries.length; i++) {
+            var entry = result.feed.entries[i];
+            var div = document.createElement("div");
+            div.appendChild(document.createTextNode(entry.title));
+            container.appendChild(div);
+          }
+        }
+      });
+    }
+    google.setOnLoadCallback(initialize);
+
+    </script>
         </div>
       </div>
     </div>
